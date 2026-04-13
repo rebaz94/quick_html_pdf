@@ -19,6 +19,9 @@ enum PdfPageFormat {
   /// A4 paper size (210mm x 297mm)
   a4(210, 297),
 
+  /// A5 paper size (148mm x 210mm)
+  a5(148, 210),
+
   /// US Letter size (215.9mm x 279.4mm)
   letter(215.9, 279.4),
 

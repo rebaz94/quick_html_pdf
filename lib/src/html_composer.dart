@@ -245,6 +245,9 @@ ${(useFixedHeaders && options.hasFooter) ? _generateFooterHTML(options.footerHtm
       case PdfPageFormat.a4:
         sizeName = 'A4';
         break;
+      case PdfPageFormat.a5:
+        sizeName = 'A5';
+        break;
       case PdfPageFormat.letter:
         sizeName = 'letter';
         break;

@@ -122,6 +122,9 @@ class BytesStrategy {
       case PdfPageFormat.a4:
         format = 'a4';
         break;
+      case PdfPageFormat.a5:
+        format = 'a5';
+        break;
       case PdfPageFormat.letter:
         format = 'letter';
         break;
@@ -457,6 +460,9 @@ class BytesStrategy {
     switch (options.pageFormat) {
       case PdfPageFormat.a4:
         format = 'a4';
+        break;
+      case PdfPageFormat.a5:
+        format = 'a5';
         break;
       case PdfPageFormat.letter:
         format = 'letter';
